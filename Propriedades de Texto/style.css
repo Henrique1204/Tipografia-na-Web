@@ -1,0 +1,156 @@
+/*Estilos Gerais*/
+
+* {
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	padding-bottom: 400px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 60px;
+}
+
+cite {
+	display: block;
+}
+
+section {
+	padding: 0 40px 40px 40px;
+	margin: 60px auto;
+	overflow: hidden;
+}
+
+/* Estilos Tipografia */
+/* Cores */
+.exemplo-1 h2{
+	color: #2cb;
+}
+
+.exemplo-1 p {
+	color: rgba(34, 34, 34, 0.6);
+}
+
+/* 2 § Bold ou Itálico */
+.exemplo-2 h2 {
+	font-weight: 700;
+}
+
+.exemplo-2 p {
+	font-style: italic;
+}
+
+.exemplo-2 cite {
+	font-style: normal;
+}
+
+/* 3 § Tamanho e Altura da linha */
+.exemplo-3 h2 {
+	font-size: 2em;
+}
+
+.exemplo-3 p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.exemplo-3 cite {
+	font-size: 0.875em;
+}
+
+/* 4 § Família Tipográfica */
+.exemplo-4 h2 {
+	font-family: fantasy;
+}
+
+.exemplo-4 p {
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+/* 5 § Variante */
+.exemplo-5 h2 {
+	font-variant: small-caps;	
+}
+
+/* 6 §  Font Geral */
+.exemplo-6 h2 {
+	/* style variant weight size family */
+	font: bold 2em Georgia;
+}
+
+/* 7 § Alinhamento */
+.exemplo-7 h2 {
+	text-align: center;
+}
+
+.exemplo-7 p {
+	text-align: justify;
+}
+
+.exemplo-7 cite {
+	text-align: end;
+}
+
+/* 8 § Transformar */
+.exemplo-8 h2 {
+	text-transform: uppercase;
+}
+
+.exemplo-8 p {
+	text-transform: lowercase;
+}
+
+.exemplo-8 cite {
+	text-transform: capitalize;
+}
+
+/* 9 § Indentar */
+.exemplo-9 p {
+	text-indent: 1em;
+	margin: 0px;
+}
+
+.exemplo-9 cite {
+	margin-top: 10px;
+}
+
+/* 10 §  Decoração */
+.exemplo-10 h2 {
+	text-decoration: underline;
+}
+
+.exemplo-10 p {
+	text-decoration: overline;
+}
+
+.exemplo-10 cite {
+	text-decoration: line-through;
+}
+
+/* 11 § Sombra */
+.exemplo-11 {
+	text-shadow: 4px 4px 2px #000;	
+}
+
+/* 12 § Tracking, Espaçamento e Quebra */
+.exemplo-12 {
+	letter-spacing: .2em;
+	white-space: nowrap;
+}
+
+/* 13 § Lista */
+.exemplo-13 ul {
+	padding: 0px;
+	list-style-position: inside;
+}
+
+.exemplo-13 ul li {
+	line-height: 1.6em;
+}
