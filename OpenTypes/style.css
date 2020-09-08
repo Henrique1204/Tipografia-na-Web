@@ -1,0 +1,141 @@
+/*Estilos Gerais*/
+* {
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+body {
+	padding-bottom: 400px;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-family: 'Playfair Display', serif;
+}
+
+p {
+	font-size: 1.250em;
+	line-height: 1.4em;
+	font-family: 'Calluna', serif;
+}
+
+cite {
+	font-size: 0.850em;
+	font-family: 'Calluna', serif;
+}
+
+h1 {
+	font-family: 'Calluna', serif;
+	text-align: center;
+	font-size: 3em;
+	font-weight: normal;
+	margin-top: 60px;
+	-webkit-font-feature-settings:'smcp' 1; 
+	font-feature-settings:'smcp' 1;
+}
+
+cite {
+	display: block;
+}
+
+section {
+	max-width: 500px;
+	padding: 0 20px 20px 20px;
+	margin: 60px auto;
+	overflow: hidden;
+}
+
+/*OpenType Features*/
+
+/* 1 § Small Caps = smcp */
+.exemplo-1 h2 {
+	font-feature-settings: "smcp";
+}
+
+.exemplo-1 cite {
+	font-feature-settings:'smcp' 1;
+}
+
+/* 2 § Small Capitals From Capitals = c2sc */
+/* Diminui a Maiúscula pro tamanho de minúscula */
+.exemplo-2 h2{
+	font-feature-settings:'c2sc' 1;
+}
+
+.exemplo-2 p {
+	font-feature-settings:'c2sc' 1;
+}
+
+.exemplo-2 cite {
+	font-feature-settings:'c2sc' 1;
+}
+
+/* 3 § Ligaturas Discricionárias = dlig */
+/* Liga os caracteres de uma forma estilosa, cada tipografia tem caracteres diferentes */
+.exemplo-3 h2{
+	font-feature-settings:'dlig' 1;
+}
+
+.exemplo-3 p {
+	font-feature-settings:'dlig' 1;
+}
+
+.exemplo-3 cite {
+	font-feature-settings:'dlig' 1;
+}
+
+/* 4 § Ligaturas = liga */
+/* Liga os caracteres, cada tipografia tem caracteres diferentes */
+.exemplo-4 h2{
+	font-feature-settings:'liga' 1;
+}
+
+.exemplo-4 p {
+	font-feature-settings:'liga' 1;
+}
+
+.exemplo-4 cite {
+	font-feature-settings:'liga' 1;
+}
+
+/* 5 § Frações = frac */
+/* Escreve o frações no estilo de fração */
+.exemplo-5 h2{
+	font-feature-settings:'frac' 1;
+}
+
+.exemplo-5 p {
+	font-feature-settings:'frac' 1;
+}
+
+/* 6 § Numeros Alinhados = lnum */
+/* Faz os números ficarem em alinhamento */
+.exemplo-6 h2{
+	font-feature-settings:'lnum' 1;
+}
+
+.exemplo-6 p {
+	font-feature-settings:'lnum' 1;
+}
+
+/* 7 § Figuras Antigas = onum */
+/* Faz os números não ficarem em alinhamento */
+.exemplo-7 h2{
+	font-feature-settings:'onum' 1;
+}
+
+.exemplo-7 p {
+	font-feature-settings:'onum' 1;
+}
+
+/* 8 § Zero = zero */
+/* zero absoluto */
+.exemplo-8 h2{
+	font-feature-settings:'zero' 1;
+}
+
+.exemplo-8 p {
+	font-feature-settings:'zero' 1;
+	font-size: 2em;
+}
